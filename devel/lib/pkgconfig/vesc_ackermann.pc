@@ -1,0 +1,8 @@
+prefix=/mnt/hgfs/proj/racecar_ws/devel
+
+Name: vesc_ackermann
+Description: Description of vesc_ackermann
+Version: 0.0.1
+Cflags: -I/mnt/hgfs/proj/racecar_ws/src/system/vesc/vesc_ackermann/include
+Libs: -L${prefix}/lib 
+Requires: nodelet pluginlib roscpp nav_msgs std_msgs geometry_msgs tf ackermann_msgs vesc_msgs

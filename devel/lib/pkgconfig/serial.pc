@@ -1,0 +1,8 @@
+prefix=/mnt/hgfs/proj/racecar_ws/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/mnt/hgfs/proj/racecar_ws/src/system/serial/include
+Libs: -L${prefix}/lib -lserial -lrt -lpthread
+Requires: 

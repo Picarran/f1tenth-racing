@@ -1,0 +1,8 @@
+prefix=/mnt/hgfs/proj/racecar_ws/devel
+
+Name: hokuyo_node
+Description: Description of hokuyo_node
+Version: 1.7.8
+Cflags: -I/mnt/hgfs/proj/racecar_ws/devel/include -I/mnt/hgfs/proj/racecar_ws/src/system/hokuyo_node/include
+Libs: -L${prefix}/lib -llibhokuyo
+Requires: rosconsole
