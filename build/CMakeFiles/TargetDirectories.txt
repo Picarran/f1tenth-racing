@@ -136,6 +136,13 @@
 /mnt/hgfs/proj/racecar_ws/build/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_lisp.dir
 /mnt/hgfs/proj/racecar_ws/build/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_geneus.dir
 /mnt/hgfs/proj/racecar_ws/build/system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/list_install_components.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/install.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/install/strip.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/install/local.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/test.dir
+/mnt/hgfs/proj/racecar_ws/build/my_keyboard_control/CMakeFiles/edit_cache.dir
 /mnt/hgfs/proj/racecar_ws/build/system/racecar/ackermann_cmd_mux/CMakeFiles/list_install_components.dir
 /mnt/hgfs/proj/racecar_ws/build/system/racecar/ackermann_cmd_mux/CMakeFiles/rebuild_cache.dir
 /mnt/hgfs/proj/racecar_ws/build/system/racecar/ackermann_cmd_mux/CMakeFiles/test.dir

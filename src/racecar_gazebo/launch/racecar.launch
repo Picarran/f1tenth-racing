@@ -4,8 +4,8 @@
   <arg name="gui" default="true" />
   <arg name="run_camera" default="false"/>
 
-  <arg name="x_pos" default="-5.388334"/>
-  <arg name="y_pos" default="-4.094883"/>
+  <arg name="x_pos" default="-7.388334"/>
+  <arg name="y_pos" default="-8.800000"/>
   <arg name="z_pos" default="0.0"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">

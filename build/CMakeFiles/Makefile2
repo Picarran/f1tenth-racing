@@ -2089,6 +2089,24 @@ clean: system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/c
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory my_keyboard_control
+
+# Convenience name for "all" pass in the directory.
+my_keyboard_control/all:
+
+.PHONY : my_keyboard_control/all
+
+# Convenience name for "clean" pass in the directory.
+my_keyboard_control/clean:
+
+.PHONY : my_keyboard_control/clean
+
+# Convenience name for "preinstall" pass in the directory.
+my_keyboard_control/preinstall:
+
+.PHONY : my_keyboard_control/preinstall
+
+#=============================================================================
 # Directory level rules for directory system/racecar/ackermann_cmd_mux
 
 # Convenience name for "all" pass in the directory.

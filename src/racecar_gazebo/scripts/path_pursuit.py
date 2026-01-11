@@ -46,6 +46,11 @@ class following_path:
             path_yaw = path_euler[2]
             self.path_info.append([float(path_x), float(path_y), float(path_yaw)])
         self.Goal = list(self.path_info[-1]) # Set the last pose of the global path as goal location
+        
+
+        if self.reach_goal and len(path_array) > 0:
+            self.reach_goal = False
+            print('New goal received, resetting...')
 
     def callback_read_current_position(self, data):
         if self.reach_goal: # Stop updating the information.
