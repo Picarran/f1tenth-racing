@@ -18,9 +18,9 @@ import math
 # 角度：单位是弧度：0=向右, 1.57=向上, 3.14=向左, -1.57=向下
 # TODO：这个角度还不是很对，到终点会摆动
 GOAL_1 = (20.0, 5.2, 0.0)
-GOAL_2 = (1.3, 8.5, -1.57)
-GOAL_3 = (-5.8, -8.6, -1.57)
-GOAL_4 = (-5.8, -8.6, -1.57)
+GOAL_2 = (1.3, 8.5, 0.0)
+GOAL_3 = (-5.8, -8.6, 0.0)
+# GOAL_4 = (-5.8, -8.6, 0.0)
 # =================================================
 
 # 到达目标的距离阈值（米）
@@ -112,8 +112,9 @@ class MultiGoalNavigator:
     
     def navigate(self):
         """执行四点导航"""
-        goals = [GOAL_1, GOAL_2, GOAL_3, GOAL_4]
-        
+        # goals = [GOAL_1, GOAL_2, GOAL_3, GOAL_4]
+        goals = [GOAL_1, GOAL_2, GOAL_3]
+
         for i, (x, y, yaw) in enumerate(goals, 1):
             if self.send_and_wait_goal(x, y, yaw, i):
                 rospy.loginfo("停顿1秒...")

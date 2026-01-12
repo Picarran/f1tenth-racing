@@ -20,7 +20,7 @@ class following_path:
         self.Goal = []
         self.navigation_input = rospy.Publisher('/vesc/low_level/ackermann_cmd_mux/input/navigation', AckermannDriveStamped, queue_size=1)
         self.reach_goal = False
-        self.MAX_VELOCITY = 0.5
+        self.MAX_VELOCITY = 2.5
         self.MIN_VELOCITY = 0
         self.max_angle = 1
         self.steering_velocity = 1
@@ -140,10 +140,10 @@ class following_path:
     
     # Computes the Euclidean distance between two 2D points p1 and p2
     def dist(self, p1, p2):
-	try:
-		return np.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
-	except:
-		return 0.5
+        try:
+            return np.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
+        except:
+            return 0.5
 
     # Compute the angle between car direction and goal direction
     def find_angle(self, v1, v2):
